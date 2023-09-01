@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="./favicon (2).ico">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Scripts -->
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">作品集</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">首頁</a>
+            <a href="#about" style="--i:2;">關於</a>
+            <a href="#services" style="--i:3;">專長</a>
+            <a href="#portfolio" style="--i:4;">作品</a>
+            <a href="#contact" style="--i:5;">聯絡</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, 我的名字是</h3>
+            <h1>Johnny Lai</h1>
+            <h3>我是一名 <span class="multiple-text"><!--Frontend Developer--></span></h3>
+            <p>持續學習的工程師：擁有生物科技背景，但選擇走入網頁開發的道路。從基礎到專業，不斷自學並實踐，期望創建更多高品質的網頁應用。</p>
+
+            <div class="social-media">
+                <a href="mailto:zx156234820@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://github.com/jianhan1212" target="_blank"><i class='bx bxl-github'></i></i></a>
+            </div>
+            <a href="https://pda.104.com.tw/profile/share/eTS3ei2Q3FDTJU2ngxTh4qqt38IizPTA" target="_blank"
+                class="btn">知道更多</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./S__27803656.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./S__27803656.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">關於 <span>我</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p> 出生於1996年，台中人</p>
+            <p>畢業於弘光科技大學生物科技系。</p>
+            <a href="https://pda.104.com.tw/profile/share/eTS3ei2Q3FDTJU2ngxTh4qqt38IizPTA" target="_blank"
+                class="btn">知道更多</a>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">我的 <span>專長</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>手機程式設計</h3>
+                <p>使用Java撰寫Android APP</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Django</h3>
+                <div class="list">
+                    <ul>
+                        <li>了解MTV架構</li>
+                        <li>建立及串接資料庫</li>
+                        <li>實作會員註冊、登入等功能</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Engineering</h3>
+                <div class="list">
+                    <ul>
+                        <li>使用 HTML5 / CSS3 / JavaScript 設計網頁</li>
+                        <li>基本 RWD 響應式網頁設計</li>
+                        <li>React / Next 前端框架應用</li>
+                        <li>NextUI / BootStrap 等 UI 套件使用</li>
+                        <li>前端靜態網頁部屬 (Github.io)</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">最新 <span>專案</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="animal.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Airbnb clone</h4>
+                    <p>使用 Nextjs 復刻 Airbnb ，目前實作首頁介面與使用者登入介面，已經部屬靜態網頁，持續更新網頁功能。</p>
+                    <a href="https://airbnb-fork-nextjs.vercel.app/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="animal.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>點餐系統-網頁端</h4>
+                    <p>以 Python 的 Django 框架來開發互動式網頁，呈現簡單的環境及菜色介紹，選擇喜歡的餐點加入購物車，確認後就會將資料傳至伺服器中的資料庫存放。</p>
+                    <a href="https://github.com/jianhan1212/WebCoffee" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="animal.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>點餐系統-手機端</h4>
+                    <p>利用 Java 撰寫 Android 手機應用程式，設計理念是希望顧客透過手機點餐的方式，最後會將餐點及金額傳至Firebase存放，也可以知道自己的消費紀錄，會員資料也能即時做修改。</p>
+                    <a href="https://github.com/jianhan1212/FoodAPP"><i class='bx bx-link-external'
+                            target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="animal.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>weather forecast</h4>
+                    <p>使用React製作，並串接中央氣象局API</p>
+                    <a href="https://github.com/jianhan1212/react"><i class='bx bx-link-external'
+                            target="_blank"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">聯絡 <span>我!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="姓名">
+                <input type="email" placeholder="電子郵件">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="手機號碼">
+                <input type="text" placeholder="主旨">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="訊息"></textarea>
+            <input type="submit" value="送出" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Johnny Lai</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
