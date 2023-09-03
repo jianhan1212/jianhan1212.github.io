@@ -55,7 +55,7 @@ section {
     font-size: 2.5rem;
     color: var(--text-bg-color);
     font-weight: 600;
-    cursor: default;
+    cursor: pointer;
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
@@ -111,9 +111,9 @@ section {
 }
 
 .home-img img {
-    width: 45vw;
-    height: 100vh;
+    height: 80vh;
     padding: 5%;
+    object-fit:contain;
     /* animation: floatImage .9s ease-in-out infinite; */
 }
 
@@ -132,6 +132,10 @@ section {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+    white-space: nowrap;
+}
+.home-content h1 {
+    white-space: nowrap;
 }
 
 .home-content h3:nth-of-type(2) {
@@ -149,7 +153,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .social-media a {
@@ -202,6 +206,7 @@ span {
     width: 45vw;
     height: 100vh;
     padding: 10%;
+    object-fit: contain;
 }
 
 .heading {
@@ -219,7 +224,7 @@ span {
 }
 
 .about-content p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 2rem 0 3rem;
 }
 
@@ -454,6 +459,13 @@ span {
         padding: 10rem 3% 2rem;
     }
 
+    .home-content {
+        margin: 0 5rem;
+    }
+    .about-content {
+        margin: 0 5rem;
+    }
+
     .services {
         padding-bottom: 7rem;
     }
@@ -518,7 +530,6 @@ span {
     }
 
     .home-img img {
-        width: 50vw;
         margin-top: 4rem;
     }
 
@@ -526,9 +537,9 @@ span {
         flex-direction: column-reverse;
     }
 
-    .about-img {
-        width: 50vw;
-        margin-top: 4rem;
+    .about-img img {
+        width: 95vw;
+        /* margin-top: 3.5rem; */
     }
 
     .services h2 {
@@ -561,14 +572,6 @@ span {
 }
 
 @media (max-width: 365px) {
-    .home-img img {
-        width: 90vw;
-    }
-
-    .about-img img {
-        width: 90vw;
-    }
-
     .footer {
         flex-direction: column-reverse;
     }
