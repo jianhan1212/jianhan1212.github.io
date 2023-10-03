@@ -114,6 +114,7 @@ section {
     height: 80vh;
     padding: 5%;
     object-fit:contain;
+    /* border-radius: 3rem; */
     /* animation: floatImage .9s ease-in-out infinite; */
 }
 
@@ -207,6 +208,7 @@ span {
     height: 100vh;
     padding: 10%;
     object-fit: contain;
+    /* border-radius: 20em; */
 }
 
 .heading {
